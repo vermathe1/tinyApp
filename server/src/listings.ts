@@ -1,35 +1,27 @@
 interface Listing{
     id: string;
     title: string;
-    price: number;
-    noOfGuests: number;
-    noOfBaths: number;
-    rating: number;
+    price : number;
+    image : string;
 }
 
 export const listings: Listing[] = [
     {
-        id : "001",
+        id : "33",
         title : "title1",
         price : 20,
-        noOfGuests : 200,
-        noOfBaths : 33,
-        rating : 4
+        image : "ppp"
     },
     {
-        id : "002",
+        id : "3",
         title : "title2",
         price : 20,
-        noOfGuests : 200,
-        noOfBaths : 33,
-        rating : 4
+        image : "ppp"
     },
     {
-        id : "003",
+        id : "4",
         title : "title3",
         price : 20,
-        noOfGuests : 200,
-        noOfBaths : 33,
-        rating : 4
+        image : "ppp"
     }
 ]; 
