@@ -1,9 +1,9 @@
 import { MongoClient, Db } from "mongodb";
 import { Database } from "../lib/types"
 
-const user = "pramod";
-const password = "tinyapp2014";
-const cluster = "cluster0-fhwhi";
+const user = process.env.DB_USER;
+const password = process.env.DB_PASSWORD;
+const cluster = process.env.DB_CLUSTER;
 
 const url = `mongodb+srv://${user}:${password}@${cluster}.mongodb.net/test?retryWrites=true&w=majority`
 
