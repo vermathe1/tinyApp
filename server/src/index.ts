@@ -19,18 +19,3 @@ const mount = async (app:Application) => {
     console.log(listing);
 }
 mount(express());
-
-// app.use(bodyParser.json());
-
-// app.get("/listings",( _req, res) => res.send(listings));
-
-// app.post("/delete-listing",( req, res) => {
-//     let id = req.body.id;
-//     for(let i=0;i<listings.length;i++){
-//         if(listings[i].id === id){
-//             return res.send(listings.splice(i,1));
-//         }
-//     }
-//     return res.send("failed to delete the lsitings");
-// });
-
