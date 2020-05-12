@@ -1,7 +1,6 @@
 require("dotenv").config();
 
 import express , {Application} from "express";
-import { listings } from "./listings";
 import { ApolloServer } from 'apollo-server-express';
 import { typeDefs, resolvers } from "./graphql"
 import { connectionDatabase } from './database';
